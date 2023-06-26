@@ -1,0 +1,18 @@
+<?php
+/**
+ * LAB-1 Question-1
+ 
+ * Write a PHP script to print the following, 
+
+    *1.'I'm about to learn PHP!'
+    *2.'You could use Zend\Symfony'    
+    *3.I"t's called "Product Tree""
+    *4."\0 is called as a null character"
+
+ * Use the inputs as such (including the quotes)
+*/
+
+echo "'I'm about to learn PHP!'\n";
+echo "'You could use Zend\Symfony'\n";
+echo "I\"t's called \"Product Tree\"\"\n";
+echo "\"\\0 is called as a null character\"\n";
