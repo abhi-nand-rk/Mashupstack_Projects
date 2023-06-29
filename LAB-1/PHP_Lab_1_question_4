@@ -1,0 +1,18 @@
+<?php
+/**
+ * LAB-1 Question-4
+ 
+ * "PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source 
+ * general-purpose scripting language that is especially suited for web development and 
+ * can be embedded into HTML."
+
+ * Script to reverse the entire string given above
+*/
+
+$string = "\n PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open 
+source general-purpose scripting language that is especially suited for web development 
+and can be embedded into HTML.";
+
+$stringReverse = strrev($string);
+
+echo $stringReverse;
