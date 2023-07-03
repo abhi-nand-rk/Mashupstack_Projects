@@ -1,0 +1,10 @@
+<?php
+/**
+ * LAB-1 Question-5
+ 
+ * Script to replace the word 'PHP' to 'Java' from the below given string.
+
+ * ".PHP is a widely-used open source general-purpose scripting language"
+*/
+
+echo str_replace("PHP","Java","PHP is a widely-used open source general-purpose scripting language\n");
