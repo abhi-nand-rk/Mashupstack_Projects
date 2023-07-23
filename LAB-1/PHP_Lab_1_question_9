@@ -1,0 +1,20 @@
+<?php
+/**
+ * LAB-1 Question-9
+ 
+ * $input = "joey tribbiani";
+ 
+ * From the above input generate the below outputs,
+
+ * Joey tribbiani
+ * Joey Tribbiani
+ * JOEY TRIBBIANI
+*/
+$input = "joey tribbiani";
+$firstLetterCaps = ucfirst($input);
+$upperCase = strtoupper($input);
+$firstLetterCapsForWords = ucwords($input);
+
+echo $firstLetterCaps.PHP_EOL;
+echo $firstLetterCapsForWords.PHP_EOL;
+echo $upperCase.PHP_EOL;
