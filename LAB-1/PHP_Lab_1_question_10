@@ -1,0 +1,18 @@
+<?php
+/**
+ * LAB-1 Question-10
+ 
+ * With the below input print the output as “PHP”
+ 
+ * $input1 = "          PHP          ";
+ * $input2 = "PHP          ";
+ * $input3 = "        PHP ";
+*/
+
+$input1 = "          PHP          ";
+$input2 = "PHP          ";
+$input3 = "        PHP ";
+
+echo trim($input1).PHP_EOL;
+echo rtrim($input2).PHP_EOL;
+echo ltrim($input3).PHP_EOL;
