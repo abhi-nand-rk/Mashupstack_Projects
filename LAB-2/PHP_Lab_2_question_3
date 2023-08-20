@@ -16,5 +16,5 @@ function checkTextEndsWith($email)
         echo 'The text entered has a different format';
     }
 }
-$email = "test@test.com"; 
+$email = "test@test.com";
 checkTextEndsWith($email);
