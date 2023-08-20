@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * LAB-2 Question-3
+ 
+ * $email = "test@test.com";
+ * Write a function to check whether the above text ends with .com
+ */
+
+function checkTextEndsWith($email)
+{
+    $check = substr($email, -4);
+    if ($check == '.com') {
+        echo 'The text entered ends with a .com';
+    } else {
+        echo 'The text entered has a different format';
+    }
+}
+$email = "test@test.com"; 
+checkTextEndsWith($email);
