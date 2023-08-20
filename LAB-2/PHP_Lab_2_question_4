@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * LAB-2 Question-4
+ 
+ * $input = "PHP  - recursive acronym for PHP: Hypertext Preprocessor";
+ * Find the number of occurences of 'PHP' in the above input 
+ * Hint: substr_count
+ */
+
+ $input = "PHP  - recursive acronym for PHP: Hypertext Preprocessor";
+
+ $result = substr_count($input,'PHP');
+
+ echo $result.PHP_EOL;
