@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * LAB-2 Question-5
+ 
+ * $string1 = 'Hello world';
+ * $string2 = 'Hello world';
+ * Write a function to compare the above two strings are equal and return the boolean result 
+ * Hint: substr_compare
+ */
+
+function checkMatch($str1, $str2)
+{
+    $result = substr_compare($str1, $str2, 0);
+    echo $result . PHP_EOL;
+}
+$string1 = 'Hello world';
+$string2 = 'Hello world';
+checkMatch($string1, $string2);
