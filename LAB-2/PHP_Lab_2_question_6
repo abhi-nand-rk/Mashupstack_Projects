@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * LAB-2 Question-6
+ 
+* $filename = 'my_upgrade(1).zip';
+* $match = 'my_upgrade';
+* Write logic to return the position of match when found in the file name.
+* Hint: Use strpos
+ */
+
+$filename = 'my_upgrade(1).zip';
+$match = 'my_upgrade';
+echo strpos($filename, $match);
+echo PHP_EOL;
